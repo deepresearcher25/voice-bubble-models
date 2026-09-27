@@ -1,0 +1,26 @@
+NOTICE — voice-bubble-models
+
+This repository hosts model files for the Voice Bubble Android app.
+Third-party components and their licences:
+
+1. sherpa-onnx — Apache License 2.0
+   https://github.com/k2-fsa/sherpa-onnx
+   Copyright (c) k2-fsa contributors.
+
+2. OpenAI Whisper (model weights: whisper base/small, int8 ONNX) — MIT License
+   https://github.com/openai/whisper
+   Copyright (c) 2022 OpenAI.
+
+3. Silero VAD (silero_vad.onnx) — MIT License
+   https://github.com/snakers4/silero-vad
+   Copyright (c) 2021 Silero AI Team.
+
+4. Gemma 3 1B IT (gemma3-1b-it-int4.task) — Gemma Terms of Use
+   "Gemma is provided under and subject to the Gemma Terms of Use found at
+   ai.google.dev/gemma/terms"
+   Full text: see GEMMA_TERMS.md in this repository.
+   Prohibited uses: see GEMMA_PROHIBITED_USE_POLICY.md in this repository.
+   Copyright (c) Google LLC.
+
+The Voice Bubble app itself downloads these models on first run and runs
+100% on-device. No model output is sent to any server.
